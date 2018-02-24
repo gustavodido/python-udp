@@ -1,7 +1,7 @@
 from socket import *
 
 s = socket(AF_INET, SOCK_DGRAM)
-s.bind(('',54545))
+s.bind(('',65742))
 
 m = s.recvfrom(1024)
 
